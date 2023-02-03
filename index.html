@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 버킷리스트</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;500;700;900&display=swap');
+        * {
+            font-family: 'Gothic A1', sans-serif;
+        }
+        .bg {
+            width: 360px;
+            background-image : url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+        .title {
+            color: white;
+            background-color: tomato;
+            font-size: 24px;
+            padding: 4px 14px; /*여백*/
+            border-radius: 8px; /*라운드 엣지*/
+        }
+        .msg {
+            font-weight: bold;
+        }
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+<body class="bg center"> <!--center==중앙정렬-->
+    <!--다음 링크를 참고해서 bg-t2, img-t3와 같이 응용 가능 https://www.notion.so/teamsparta/2023-eee0e4c33563484bbce59df71dae2835#a14805f14cca462f8767e0bca577afd1-->
+    <h1 class="title">2023 신년계획</h1> <!--class==명찰, head의 style에서 .classname으로 불러와 css 작업 가능-->
+    <p class="msg">2023년에 이룰 다짐!</p>
+    <div class="row flex-row wrap"> <!--div==묶음, row==행, flex-row==세로를 가로로 묶음, wrap==2개씩 그룹해서 배치-->
+        <div class="bucket img1 center">성경 1독</div> <!--class에서 공백으로 태그를 여러개 구분할 수 있다. bucket 태그와 img1 태그가 존재함-->
+        <div class="bucket img2 center">시간의 십일조</div> <!--완료하면 center 뒤에 done 입력하기-->
+        <div class="bucket img2 center">월 소득 200만원</div>
+        <div class="bucket img1 center">독서모임 11기까지 진행(8권 이상)</div>
+        <div class="bucket img1 center">인터뷰 기획기사로 청소년 기자 대상</div>
+        <div class="bucket img2 center">삼성엔지니어링 기자단 대학생 멘토 선발</div>
+        <div class="bucket img2 center">html, css, javascipt 웹 개발</div>
+        <div class="bucket img1 center">python, C언어 공부</div>
+        <div class="bucket img1 center">1학기 24학점 all A+</div>
+        <div class="bucket img2 center">2학기 24학점 all A+</div>
+        <div class="bucket img2 center">건축기사 필기 합격점</div>
+        <div class="bucket img1 center">WM. 중등 기초/실력/고난도</div>
+        <div class="bucket img1 center">WM. 고등 basic/수능/complete/하이퍼/파이널/완성</div>
+        <div class="bucket img2 center">RM. 중등 beginner/lv1/lv2/lv3</div>
+        <div class="bucket img2 center">영문법 중등 3800제 1/2/3, 고등 천일문 기본/핵심/완성</div>
+        <div class="bucket img1 center">수학 오일러/피타고라스/칸토어/네이피어/피보나치/파스칼</div>
+        <div class="bucket img1 center">bass guitar🎸</div>
+    </div>
+</body>
+</html>
